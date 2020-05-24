@@ -1,0 +1,28 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textViewlabelcreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mytheme_label_create"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editTextCreate"
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/buttonTheme_create"
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="@string/mytheme_button_create" />
+
+    </LinearLayout>

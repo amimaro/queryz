@@ -1,0 +1,55 @@
+<TableLayout
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"        
+        android:padding="5dp"        
+        android:stretchColumns="*" >
+        
+        <MultiAutoCompleteTextView
+            android:id="@+id/multiAutoCompleteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:completionThreshold="1"            
+            android:imeOptions="actionDone"                        
+            android:text=""
+            android:hint="@string/sqlscript_text_hint" >
+
+            <requestFocus />
+        </MultiAutoCompleteTextView>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/buttonExecute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/sqlscript_button_execute" />
+
+            <Button
+                android:id="@+id/buttonHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sqlscript_button_help" />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+
+
+
+
+
+
+
+

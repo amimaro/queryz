@@ -1,0 +1,63 @@
+*benm
+http://www.androidz.com.br/forum/
+	http://www.androidz.com.br/forum/topic/19960-app-gerenciador-de-banco-de-dados-android-21-queryz/
+http://www.portalandroidbrasil.com.br/
+	http://www.portalandroidbrasil.com.br/index.php?/topic/2259-app-gerenciador-de-banco-de-dados-android-21-queryz/
+http://www.portalandroid.org/comunidade/viewforum.php?f=14
+http://androidforum.com/
+http://www.android.net/forum/forum.php
+	http://www.android.net/forum/app-announcements/92632-free-2-1-database-manager-queryz.html
+	http://www.android.net/forum/app-announcements/
+http://androidforums.com/
+	http://androidforums.com/application-announcements/
+http://www.anddev.org/promote-your-android-application-f22/
+	http://www.anddev.org/promote-your-android-application-f22/database-manager-queryz-t2169185.html
+	
+*benmm
+http://www.droidforums.net/forum/app-announcements/
+	http://www.droidforums.net/forum/app-announcements/227872-2-1-database-manager-queryz.html#post2314866
+http://androidcommunity.com/forums/f24/
+	http://androidcommunity.com/forums/f24/app-tool-2-1-database-manager-queryz-119919/#post462354
+
+~announce android app -site:androidz.com.br -site:portalandroidbrasil.com.br -site:portalandroid.org -site:android.net -site:androidforums.com -site:anddev.org -site:droidforums.net -site:androidcommunity.com -site:makingmoneywithandroid.com inurl:forum
+
+[App] Gerenciador de Banco de Dados Android 2.1 - Queryz
+Aos que gostam de banco de dados, chegou uma novidade! Queryz, com ele voce pode criar seu banco de dados e executar seus comandos SQL na palma da mão de maneira rápida e prática!
+
+Veja mais:  https://play.google.com/store/apps/details?id=com.amirz.queryz
+
+Queryz is a sqlite database manager where you can create or open your databases. 
+After opening the database you can execute your sqlite commands.
+As you type, you can auto complete your command with sqlite commands or with the name of the tables and columns of the selected database. And also, it's possible to have an overview of the database tables. Every executed command is stored in a historical.
+
+FEATURES:
+Create or open sqlite database
+Run sqlite commands
+Database overview
+Fast typing
+History
+
+        Queryz is a sqlite database manager where you can create or open your databases.
+        After opening the database you can execute your sqlite commands.
+        As you type, you can auto complete your command with sqlite commands or with the name of the tables and columns of the selected database. And also, it's possible to have an overview of the database tables. Every executed command is stored in a historical.
+
+FEATURES:
+Create or open sqlite database
+Run sqlite commands
+Database overview
+Fast typing
+History
+
+TIPS:
+The databases created are stored at /sdcard/queryz/databases/
+If you have a database at your computer and you want to open it just copy the file to the databases folder written above
+At the work area press the menu button to start
+Clicking on the column's description at the 'Description' button will copy the column's name to the typing area
+Some commands are stored with '!' at the beginning. This mean the command failed
+To drop your database long click on the selected database at the listing\nLong click to remove just one item from the history
+In case of doubt, suggestions or bugs, please contact us.
+Amirz
+amir.zahlan@gmail.com
+
+
+

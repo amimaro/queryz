@@ -1,0 +1,74 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amirz.queryz"
+    android:versionCode="3"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="15" />
+    
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />	
+	 
+    <application
+        android:icon="@drawable/qlogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Main"
+            android:label="@string/title_activity_main"            
+            android:configChanges="keyboardHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".DataManager"
+            android:label="@string/title_activity_datamanager"            
+            android:configChanges="orientation|keyboardHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".CreateTheme"		
+            	android:configChanges="orientation|keyboardHidden"
+				android:theme="@android:style/Theme.Dialog">
+		</activity> 
+		
+        <activity
+            android:name=".AboutTheme"
+            android:label="@string/title_theme_about"
+            android:theme="@android:style/Theme.Translucent">              
+        </activity>
+		
+        <activity android:name=".SqlScript"       	           					
+            	android:configChanges="orientation|keyboardHidden"
+				android:theme="@android:style/Theme.Dialog">
+		</activity> 
+		
+        <activity android:name=".HelpScript" 
+            	android:label="@string/title_activity_helpsql"           	        					
+				android:theme="@android:style/Theme.Translucent">
+		</activity> 
+		
+        <activity
+            android:name=".SqlHist"
+            android:label="@string/title_activity_sqlhist"
+            android:theme="@android:style/Theme.Translucent">              
+        </activity>
+        
+        <activity
+            android:name=".ListDatabases"
+            android:label="@string/title_activity_listdatabases" >              
+        </activity>
+        
+    </application>
+    
+	
+	
+</manifest>

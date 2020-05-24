@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#C0000000" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+            
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:text="
+        Queryz is a sqlite database manager where you can create or open your databases.\n
+        After opening the database you can execute your sqlite commands.\n
+        As you type, you can auto complete your command with sqlite commands or with the name of the tables and columns of the selected database.
+And also, it's possible to have an overview of the database tables. Every executed command is stored in a historical.\n\n\n
+FEATURES:\nCreate or open sqlite database\nRun sqlite commands\nDatabase overview\nFast typing\nHistory\nExport/Import Databases\n\n\nTIPS:\n
+Clicking on the column's description at the 'Description' button will copy the column's name to the typing area\nSome commands are stored with '!' at the beginning. This mean the command failed\n
+To drop your database long click on the selected database at the listing\nLong click to remove just one item from the history\n\nIn case of doubt, suggestions or bugs, please contact us.\nAmirz\namir.zahlan@gmail.com" />
+            
+        </LinearLayout>
+    </ScrollView>
+    
+</RelativeLayout>

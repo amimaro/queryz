@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/menu_cmd" android:title="@string/datamanager_menu_cmd" android:icon="@android:drawable/ic_menu_edit"></item>    
+    <item android:id="@+id/menu_hist" android:title="@string/datamanager_menu_hist" android:icon="@android:drawable/ic_menu_agenda"></item>  
+
+</menu>
